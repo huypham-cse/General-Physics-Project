@@ -1,0 +1,34 @@
+{
+  "scenario_name": "No safe deployment before ground",
+  "launch": {
+    "average_gun_force": 10000,
+    "rail_angle_deg": 100,
+    "rail_length": 2,
+    "tail_offset": 5,
+    "tail_top_height": 3,
+    "clearance_margin": 1
+  },
+  "seat": {
+    "total_mass": 100,
+    "drag_coefficient": 1,
+    "frontal_area_A": 0.5
+  },
+  "aircraft": {
+    "speed": 100,
+    "initial_altitude": 2000
+  },
+  "constants": {
+    "gravity": 9.81,
+    "air_density": 1.2
+  },
+  "simulation": {
+    "max_time": 200,
+    "time_step": 0.01
+  },
+  "parachute": {
+    "drag_coefficient": 1.5,
+    "area": 20,
+    "max_deceleration": 150,
+    "deployment_altitude": 3000
+  }
+}
